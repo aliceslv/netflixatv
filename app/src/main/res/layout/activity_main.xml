@@ -100,6 +100,7 @@
         android:padding="2dp"
         android:text="Romance"
         android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@id/btnAssistir"
         app:layout_constraintEnd_toStartOf="@+id/txtEngracado"
         app:layout_constraintStart_toEndOf="@+id/txtAnime"
         app:layout_constraintTop_toBottomOf="@+id/imgNanaWord" />
@@ -163,7 +164,7 @@
         app:layout_constraintBottom_toBottomOf="@id/btnAssistir"
         app:layout_constraintEnd_toStartOf="@+id/btnAssistir"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@id/LinhaGuiaEsquerda"
         tools:layout_editor_absoluteY="271dp" />
 
     <Button
