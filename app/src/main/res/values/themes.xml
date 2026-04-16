@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Netflix" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <!-- A colorPrimary - é a cor principal do aplicativo.
+        é a cor que mais aparece na interface
+        No início, ela pode chamar atenção. mas, como está presente em muitos elementos,
+        acaba se tornando normal para o olhar do usuário.
+        Ex: Toolbar, botões, floating action, barra de progresso, caixa de texto -->
+        <item name="colorPrimary">@color/primaria</item>
+
+        <!-- colorPrimaryVariant: cor de variação, normalmente mais escura;
+        tem a função de servir como apoio visual e dar contraste
+        é usada principalmente em áreas que precisam de diferenciação em relação
+        à cor principal (como a barra de status e superfícies elevadas), que representam
+        camadas superiores ou efeitos de profundidade -->
+        <item name="colorPrimaryVariant">@color/primaria_variacao</item>
+
+        <!-- colorSecondary: é utilizada para destacar elementos importantes ou
+        interativos. Diferente da cor primária, ela não aparece com frequência e, justamente
+        por isso, consegue chamar mais atenção. é a cor que puxa o olhar do usuário, sendo ideal
+        para indicar ações ou elementos que precisam ser percebidos rapidamente.
+        Ex: botão cancelar, botão voltar, botão pular. -->
+        <item name="colorSecondary">@color/secundaria</item>
+
+        <!-- cor da barra status -->
+        <!-- ?attr em vez de apontar para uma cor específica, a referência, é feita a um atributo
+        de tema. Quando a aplicação é executada, o Android verifica o tema ativo (ex: modo claro ou
+        escuro). -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:windowBackground">@color/black</item>
+
+    </style>
+
+    <style name="Theme.Netflix" parent="Base.Theme.Netflix" />
+</resources>
